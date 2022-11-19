@@ -1,0 +1,15 @@
+current directory: /Users/takanoritatebe/workspace/portfolio/PT-exam/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+/Users/takanoritatebe/.rbenv/versions/2.5.1/bin/ruby -I /Users/takanoritatebe/.rbenv/versions/2.5.1/lib/ruby/site_ruby/2.5.0 -r ./siteconf20221118-5135-1gx3lvz.rb extconf.rb
+creating Makefile
+
+current directory: /Users/takanoritatebe/workspace/portfolio/PT-exam/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= clean
+
+current directory: /Users/takanoritatebe/workspace/portfolio/PT-exam/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\=
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/takanoritatebe/workspace/portfolio/PT-exam/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20221118-5135-gwipz8
