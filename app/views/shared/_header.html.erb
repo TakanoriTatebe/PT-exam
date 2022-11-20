@@ -30,9 +30,7 @@
         </li> %>
 
         <li class='nav-item'>
-          <a href='#' class='nav-link' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
-            過去問
-          </a>
+          <%= link_to Past.model_name.human, pasts_path, class: 'nav-link' %>
         </li>
 
         <%# <li class='nav-item dropdown dropdown-slide'>
