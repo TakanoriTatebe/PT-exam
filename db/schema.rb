@@ -10,7 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_11_19_061505) do
+ActiveRecord::Schema.define(version: 2022_11_20_043700) do
+
+  create_table "pasts", force: :cascade do |t|
+    t.integer "times", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["times"], name: "index_pasts_on_times", unique: true
+  end
 
   create_table "users", force: :cascade do |t|
     t.string "last_name", null: false

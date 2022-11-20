@@ -1,0 +1,15 @@
+<div class="container pt-3">
+  <!-- 掲示板一覧 -->
+  <div class="row">
+    <div class="col-12">
+      <div class="row">
+        <ul class="list-group">
+          <% if @pasts.present? %>
+            <%= render @pasts %>
+          <% else %>
+            <p><%= t('.no_result') %></p>
+          <% end %>
+        </ul>
+    </div>
+  </div>
+</div>
