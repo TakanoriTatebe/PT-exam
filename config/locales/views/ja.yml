@@ -3,6 +3,8 @@ ja:
     login: 'ログイン'
     register: '登録'
     logout: 'ログアウト'
+    message:
+      require_login: 'ログインしてください'
   users:
     new:
       title: 'ユーザー登録'
@@ -23,3 +25,7 @@ ja:
   profiles:
     show:
       title: 'プロフィール'
+  pasts:
+    index:
+      title: '過去問一覧'
+      no_result: '過去問がありません。'

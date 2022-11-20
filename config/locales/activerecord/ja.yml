@@ -2,7 +2,7 @@ ja:
   activerecord:
     models:
       user: 'ユーザー'
-      board: '掲示板'
+      past: '過去問'
     attributes:
       user:
         last_name: 'お名前(姓)'
